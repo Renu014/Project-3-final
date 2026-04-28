@@ -14,6 +14,13 @@
                     </Collection>
                 </Annotation>
             </Annotations>
+            <Annotations Target="SAP__self.I_DraftAdministrativeDataType">
+                <Annotation Term="UI.SelectionFields">
+                    <Collection>
+                        <PropertyPath>CreatedByUser</PropertyPath>
+                    </Collection>
+                </Annotation>
+            </Annotations>
         </Schema>
     </edmx:DataServices>
 </edmx:Edmx>
