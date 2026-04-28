@@ -131,6 +131,29 @@
                   "tableSettings": {
                     "type": "ResponsiveTable"
                   }
+                },
+                "@com.sap.vocabularies.UI.v1.SelectionFields": {
+                  "filterFields": {
+                    "Fragment File": {
+                      "label": "Fragment File",
+                      "property": "Fragment File",
+                      "template": "project3.ext.fragment.Fragment File",
+                      "required": true
+                    }
+                  }
+                }
+              },
+              "content": {
+                "header": {
+                  "actions": {
+                    "Controller File Name": {
+                      "press": "project3.ext.controller.Controller File Name.Function Name",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": false,
+                      "text": "Custom Button"
+                    }
+                  }
                 }
               }
             }

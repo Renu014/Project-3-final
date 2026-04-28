@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+        <ComboBox
+            id="Fragment File"
+            width="100%"
+            core:require="{handler: 'project3/ext/fragment/Fragment File'}"
+            selectedKey="{path: 'filterValues>', type: 'sap.fe.macros.filter.type.Value', formatOptions: { operator: 'project3.ext.fragment.Fragment File.Fragment File' }}"
+        >
+            <items>
+                <core:Item id="Item" key="0" text="Item1"/>
+                <core:Item id="Item1" key="1" text="Item2"/>
+                <core:Item id="Item2" key="2" text="Item3"/>
+            </items>
+        </ComboBox>
+</core:FragmentDefinition>
