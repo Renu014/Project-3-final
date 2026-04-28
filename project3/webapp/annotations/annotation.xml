@@ -17,7 +17,7 @@
             <Annotations Target="SAP__self.I_DraftAdministrativeDataType">
                 <Annotation Term="UI.SelectionFields">
                     <Collection>
-                        <PropertyPath>CreatedByUser</PropertyPath>
+                        <PropertyPath>CreatedByUserDescription</PropertyPath>
                     </Collection>
                 </Annotation>
             </Annotations>
